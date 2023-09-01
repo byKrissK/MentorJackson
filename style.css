@@ -210,7 +210,35 @@ h2 {
         ;
     }
 
-    .card:hover {
+    .card:hover,
+    .card:active {
+        height: 400px;
+    }
+
+    .content {
+        width: 330px;
+    }
+}
+
+@media(max-width:400px) {
+    h1 {
+        font-size: 3.25em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .card{
+        position: relative;
+        width: 300px;
+        height: 200px;
+        transition: 1s;
+        ;
+    }
+
+    .card:hover,
+.card:active {
         height: 400px;
     }
 
