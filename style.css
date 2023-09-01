@@ -231,10 +231,10 @@ h2 {
 
     .card {
         position: relative;
-        width: 300px;
+        width: 350px;
         height: 200px;
+        padding: 1em 1.5em;
         transition: 1s;
-        ;
     }
 
     .card:hover,
@@ -243,6 +243,6 @@ h2 {
     }
 
     .content {
-        width: 300px;
+        max-width: 350px;
     }
 }
